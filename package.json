@@ -1,0 +1,21 @@
+{
+  "name": "youtube-downloader-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cumulative00x",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "ytdl-core": "^4.4.5"
+  }
+}
